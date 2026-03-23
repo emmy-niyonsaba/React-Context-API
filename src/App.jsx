@@ -64,7 +64,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen px-5 py-5 animate-fadeIn">
+    <div className="min-h-screen px-5 py-5 animate-fadeIn bg-gradient-to-br from-slate-900 to-slate-800 text-slate-100">
       <AppContext.Provider value={contextValue}>
         <TodoContext.Provider value={todoContextValue}>
           <div className="max-w-6xl mx-auto">
@@ -80,7 +80,6 @@ function App() {
               <UpdateProfile />
             </div>
 
-            {/* Todo Section */}
             <div className="mt-20">
               <div className="text-center mb-10">
                 <h2 className="text-4xl font-bold bg-gradient-to-r from-emerald-500 to-cyan-500 bg-clip-text text-transparent mb-3">
